@@ -10,7 +10,7 @@ type AIBoxProps = {
 
 const AIBox = ({ title, description, Icon }: AIBoxProps) => (
   <motion.div
-    className="sm:w-96 lg:w-64 xl:w-64 h-72 border border-purple-950 p-5 flex flex-col items-start bg-black m-4 rounded-2xl hover:border-2 hover:border-purple-950"
+    className="sm:w-96 lg:w-64 xl:w-64 h-72 border border-purple-950 p-4 flex flex-col items-start bg-black m-2 rounded-2xl hover:border-2 hover:border-purple-950"
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.95 }}
     initial={{ opacity: 0, y: 50 }}
