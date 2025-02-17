@@ -36,7 +36,7 @@ const ContactPage = () => {
   ]
 
   return (
-    <div className="flex flex-col items-center justify-center px-4 sm:px-8 md:px-12 py-12 bg-black min-h-screen">
+    <div className="flex flex-col items-center justify-center px-4 sm:px-8 md:px-12 py-12 bg-black px-12 py-12">
       <motion.div
         className="text-center mb-12"
         initial={{ opacity: 0, y: -20 }}
