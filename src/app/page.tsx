@@ -7,11 +7,14 @@ export default function Home() {
   return (
     <>
       <AdvancedAi />
+      
       <NeuralCapabilities />
+      
       <AiSolution />
+      
       <ChoosePlan />
+      
       <ContactPage />
-     
     </>
   );
 }
